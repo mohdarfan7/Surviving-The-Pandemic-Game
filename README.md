@@ -6,22 +6,23 @@
 
 ---
 # 📂 Project Structure
-Surviving-The-Pandemic-Game/
-├── src/ # C++ source code
-│ ├── core/ # Game engine (GameManager, Renderer)
-│ ├── entities/ # Player, NPCs, Items
-│ ├── database/ # MySQL connection and queries
-│ └── main.cpp # Entry point
-├── docs/ # Documentation
-│ ├── design.md # Game design specs
-│ ├── screenshots/ # Game visuals
-│ └── db_schema.md # Database diagram
-├── sql/ # MySQL scripts
-│ ├── schema.sql # Database tables
-│ └── sample_data.sql # Mock data
-├── tests/ # Unit tests (Google Test)
-├── CMakeLists.txt # Build configuration
-└── README.md # Project documentation
+
+- 📦 **Surviving-The-Pandemic-Game/**
+  - 📂 **src/** - C++ source code
+    - 🎮 *core/* - Game engine
+    - 👥 *entities/* - Player/NPC classes
+    - 🗃️ *database/* - MySQL integration
+    - 🏁 *main.cpp* - Entry point
+  - 📂 **docs/** - Documentation
+    - 📝 *design.md* - Design specs
+    - 🖼️ *screenshots/* - Game visuals
+    - 📊 *db_schema.md* - DB diagrams
+  - 📂 **sql/** - MySQL scripts
+    - 🛢️ *schema.sql* - Table definitions
+    - 🧪 *sample_data.sql* - Test data
+  - 🧪 **tests/** - Unit tests
+  - ⚙️ *CMakeLists.txt* - Build config
+  - 📄 *README.md* - Project docs
 
 
 ---
